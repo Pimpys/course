@@ -38,3 +38,15 @@ print_r($array);
 name - model - speed - doors - year, например:
 bmw - 120 - 5 – 2006
  */
+
+$bmw = [
+    "model" => "X5",
+    "speed" => 120,
+    "doors" => 5,
+    "year" => "2006",
+];
+
+//bmw - 120 - 5 – 2006
+
+echo '<br>';
+echo "bmw - $bmw[model] - $bmw[speed]";
